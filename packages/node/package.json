@@ -27,5 +27,6 @@
   "scripts": {
     "test": "jest --env node --verbose",
     "build": "tsc -p ./tsconfig.build.json"
-  }
+  },
+  "gitHead": "ccf08dc3da508a92952f59853ae9a3c75f117c94"
 }

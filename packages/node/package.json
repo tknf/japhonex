@@ -1,0 +1,31 @@
+{
+  "name": "@tknf/japhonex",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Regex for japanese phone number",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "TKNF LLC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tknf/japhonex",
+    "directory": "packages/node"
+  },
+  "bugs": {
+    "url": "https://github.com/tknf/japhonex/issues"
+  },
+  "homepage": "https://github.com/tknf/japhonex/README.md",
+  "engines": {
+    "node": ">=12.14.0"
+  },
+  "main": "build/index.js",
+  "types": "./build/index.d.ts",
+  "files": [
+    "build/"
+  ],
+  "scripts": {
+    "test": "jest --env node --verbose",
+    "build": "tsc -p ./tsconfig.build.json"
+  }
+}
